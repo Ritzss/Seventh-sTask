@@ -1,0 +1,239 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+img{
+    height: 22vw;
+    width: 99vw
+}
+
+h1{
+    position: absolute;
+    top: 7vw;
+    left: 36vw;
+    font-size: 78px;
+    text-shadow: 4px 1px 0px chocolate;
+    color:chartreuse;
+}
+
+#sortbar{
+    border: 1px solid #8080806b;
+    width: 92vw;
+    height: 3vw;
+    position: relative;
+    top: 3vw;
+    margin: 0px 4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    border-radius: 15px;
+}
+
+#sortbar div:nth-child(1){
+    font-size: 25px;
+}
+
+#product-display{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 40vw;
+    gap: 33px 14px;
+}
+
+.product-card{
+    width: 28vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 45vw;
+    border: solid grey;
+    border-radius: 15px;
+    box-shadow: 33px 24px 21px rebeccapurple;
+    color:rgb(4, 255, 4);
+    background: linear-gradient(0deg, black 10%, orange 60%);
+}
+
+.product-image{
+    height: 27vw;
+    width: 27.7vw;
+    margin: 0px 0px 15px ;
+    border-radius: 13px;
+}
+
+.product-name{
+    font-size: 30px;
+    margin: 0px 0px 10px 10px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.product-price{
+    font-size: 30px;
+    margin: 0px 0px 10px 10px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.product-addcart{
+    font-size: 30px;
+    margin: 0px 15px 10px 15px;
+    font-family: 'Satoshi', sans-serif;
+    border-radius: 13px;
+    width: 26vw;
+    height: 9vh;
+    background: linear-gradient(42deg, blue, violet,rebeccapurple);
+    color: white;
+}
+
+#productCount{
+    background-color: transparent;
+}
+
+#sort-method{
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 25px
+}
+
+.LOADING-image{
+    height: 28vw;
+    width: 50vw;
+    position: relative;
+    top: 10vh;
+    left: 26vw;
+}
+
+.fetch-button{
+    position: absolute;
+    bottom: -24vh;
+    left: 44vw;
+    font-size: 25px;
+    padding: 8px;
+    border-radius: 17px;
+    background: linear-gradient(45deg, lightgreen 20%, blue 74%);
+    margin: 0px 0px;
+}
+
+/* 
+* to get for mobile view
+*/
+
+@media (max-width:600px) {
+    
+    #product-display{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap ;
+    position: absolute;
+    top: 48vw;
+    gap: 33px 30px;
+}
+    
+.product-card {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vw;
+    border: solid grey;
+    border-radius: 15px;
+    box-shadow: 33px 24px 21px rebeccapurple;
+    color: rgb(4, 255, 4);
+    background: linear-gradient(0deg, black 10%, orange 60%);
+}
+
+.product-name {
+    font-size: 15px;
+    margin: 0px 0px 10px 10px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.product-price{
+    font-size: 15px;
+    margin: 0px 0px 10px 10px;
+    font-family: 'Satoshi', sans-serif;
+}
+
+.product-addcart{
+    font-size: 15px;
+    margin: 0px 15px 10px 15px;
+    font-family: 'Satoshi', sans-serif;
+    border-radius: 13px;
+    width: 30vw;
+    height: 6vh;
+    background: linear-gradient(42deg, blue, violet,rebeccapurple);
+    color: white;
+}
+
+.product-image {
+    height: 41vw;
+    width: 38.7vw;
+    margin: 0px 0px 15px;
+    border-radius: 13px;
+}
+
+h1 {
+    position: absolute;
+    top: 7vw;
+    left: 19vw;
+    font-size: 49px;
+    text-shadow: 4px 1px 0px chocolate;
+    color: chartreuse;
+}
+
+img {
+    height: 28vw;
+    width: 100vw;
+}
+
+#sortbar {
+    border: 1px solid #8080806b;
+    width: 90vw;
+    height: 10vw;
+    position: relative;
+    top: 3vw;
+    margin: 0px 5vw;
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1vw;
+    border-radius: 15px;
+}
+
+#sort-method {
+    font-size: 15px;
+    background-color: transparent;
+    border-radius: 25px;
+}
+.LOADING-image {
+height: 45vw;
+width: 74vw;
+position: relative;
+left: 15vw;
+top: 13vh;
+}
+
+.fetch-button {
+    position: absolute;
+    bottom: 29vh;
+    left: 41vw;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 17px;
+    background: linear-gradient(45deg, lightgreen 20%, blue 74%);
+    margin: 0px 0px;
+}
+
+#sortbar div:nth-child(1) {
+    font-size: 19px;
+}
+}
+
+@media (max-width:600px) {}

@@ -1,0 +1,13 @@
+{
+  "name": "task-by-qspider",
+  "version": "1.0.0",
+  "description": "Front-End Test Task: E-commerce Collection Page\r Background:\r     Imagine you are a Front-End Developer for an E-Commerce business that specializes in selling snowboards. The company wants to create a collection page showcasing all the products. Your task is to propose and implement front-end using HTML, CSS, and JavaScript to create a smooth, engaging user journey.\r Task Description:\r     Goal:\r         Create a simple Ecommerce collection page that fetches product data from an API and displays it on the UI on a button click with proper animations.\r Requirements:\r     Fetch Data: Use JavaScript to make a GET request to the provided API endpoint.\r                 https://interveiw-mock-api.vercel.app/api/getProducts\r Display Products: Load the products on the page with HTML and CSS. Each product should display essential details like:\r     Image\r     Product Name\r     Price\r     Description\r Products should animate in a staggered manner.\r     Basic Styling: Apply CSS to ensure the products look, and animate as per the Figma attached below. Matching the UI Design is a mandatory requirement.\r     Optional Enhancement: Implement a filter feature - Sort by price and re render the UI with the same animation as when products were loaded.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
