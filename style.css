@@ -220,7 +220,7 @@ top: 13vh;
 
 .fetch-button {
     position: absolute;
-    bottom: 29vh;
+    /* bottom: 29vh; */
     left: 41vw;
     font-size: 12px;
     padding: 8px;
