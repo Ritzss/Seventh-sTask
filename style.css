@@ -114,7 +114,7 @@ h1{
     font-size: 25px;
     padding: 8px;
     border-radius: 17px;
-    background: linear-gradient(45deg, lightgreen 20%, blue 74%);
+    background: blue;
     margin: 0px 0px;
 }
 
@@ -225,7 +225,7 @@ top: 13vh;
     font-size: 12px;
     padding: 8px;
     border-radius: 17px;
-    background: linear-gradient(45deg, lightgreen 20%, blue 74%);
+    background:blue;
     margin: 0px 0px;
 }
 
