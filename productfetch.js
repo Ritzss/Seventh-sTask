@@ -119,7 +119,7 @@ setTimeout(() => {
 });
 
 // setting attributes
-img2.src = "../images/image.png";
+img2.src = "./images/image.png";
 img2.alt = "LOADING Image";
 img2.className = "LOADING-image";
 
