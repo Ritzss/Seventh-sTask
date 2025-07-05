@@ -8,17 +8,17 @@
 
 
 img{
-    height: 22vw;
+    height: 28vw;
     width: 99vw
 }
 
 h1{
     position: absolute;
-    top: 7vw;
+    top: 15vw;;
     left: 36vw;
     font-size: 78px;
     text-shadow: 4px 1px 0px chocolate;
-    color:chartreuse;
+    color:white;
 }
 
 #sortbar{
@@ -111,7 +111,7 @@ h1{
 
 .fetch-button{
     position: absolute;
-    bottom: -24vh;
+    bottom: -34vh;
     left: 44vw;
     font-size: 25px;
     padding: 8px;
@@ -180,11 +180,11 @@ h1{
 
 h1 {
     position: absolute;
-    top: 7vw;
+    top: 15vw;
     left: 19vw;
     font-size: 49px;
     text-shadow: 4px 1px 0px chocolate;
-    color: chartreuse;
+    color: white;
 }
 
 img {

@@ -22,7 +22,7 @@ div4.id = "product-display";
 div5.id = "hiding-container";
 select.id = "sort-method";
 img1.className = "background-image";
-img1.src = "https://static.vecteezy.com/system/resources/previews/008/311/935/non_2x/the-illustration-graphic-consists-of-abstract-background-with-a-blue-gradient-dynamic-shapes-composition-eps10-perfect-for-presentation-background-website-landing-page-wallpaper-vector.jpg";
+img1.src = "https://s3-alpha-sig.figma.com/img/b04a/7031/b08d8d0d45e1b9705f12bedaeb690d6d?Expires=1752451200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=e5oh4ij3PyEQoAdKerxq5WcdpLNKeNvk28kFtMLusz9sH~ZfxVwM55MJI0UWshkKhJFzscyIS2r5YQSkTaQ9Zz119vsFexsKYvNarZpLsRxbLTQX-949H6UunwhxDaBun0GJdayuHDn8mVEID6ZuUKGeFIwb2ODLdD0dZbi6SSmJNkIrXWfA2IYNdFeuemkbAFr7EQOr1jk3D~N91vl09T7rsyayvbaQ2PPhD4lLdgi1IbYG6CGVEx1xmTof8tMc6B2oH6jHqQQDk2zgM5tYM~9vdCZReqiYzJGrTHw6OY5v55biJGMrXtGluWvrULhHIR9JYNEKipO6x-3YMvNxYg__";
 img1.alt = "Background Image";
 
 // values
