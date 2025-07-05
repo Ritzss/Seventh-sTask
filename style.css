@@ -7,7 +7,7 @@
 
 img{
     height: 28vw;
-    width: 99vw
+    width: 99vw;
 }
 
 h1{
@@ -129,7 +129,7 @@ h1{
     justify-content: center;
     flex-wrap:wrap ;
     position: absolute;
-    top: 48vw;
+    top: 60vw;
     gap: 33px 30px;
 }
     
@@ -186,7 +186,7 @@ h1 {
 }
 
 img {
-    height: 28vw;
+    height: 44vw;
     width: 100vw;
 }
 
